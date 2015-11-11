@@ -1,0 +1,2 @@
+module StaticPages::ContactHelper
+end
