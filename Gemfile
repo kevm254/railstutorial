@@ -9,6 +9,10 @@ gem 'faker', '1.4.2'
 # add pagination gems
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
+# add carrierwave
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick'
+gem 'fog', '1.23.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
