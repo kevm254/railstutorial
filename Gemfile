@@ -1,5 +1,6 @@
-ruby '2.2.3'
 source 'https://rubygems.org'
+ruby "2.2.3"
+
 
 # Add bootstrap
 gem 'bootstrap-sass', '3.2.0.0'
@@ -14,6 +15,8 @@ gem 'bootstrap-will_paginate', '0.0.10'
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick'
 gem 'fog', '1.23.0'
+# use puma webserver for production
+gem "puma", group: :production
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,6 +39,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'sqlite3', group: [:development, :test]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
